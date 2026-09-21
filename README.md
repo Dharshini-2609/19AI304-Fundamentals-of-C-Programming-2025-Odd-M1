@@ -4,6 +4,7 @@
 ## 2. Implementation of different categories of operators.
 # Ex.No:1
   Build a C program to demonstrate the usage of different types of literals: integer, float, character, and string.  
+
 # Aim:
 To build a C program that prints integer, float,character, and string literals on the console using the printf() function.
 # Algorithm:
@@ -25,6 +26,7 @@ To build a C program that prints integer, float,character, and string literals o
 ### Step 4: 
    Stop
 # Program:
+```
 #include <stdio.h>
 
 int main() {
@@ -46,8 +48,9 @@ printf("Character Literal: %c\n", charLiteral);
 printf("String Literal: %s\n", stringLiteral);
 
 return 0; }
+```
 # Output:
-<img width="1154" height="285" alt="image" src="https://github.com/user-attachments/assets/129327d0-91c5-480c-b2de-577f7a4f06d7" />
+<img width="1154" height="285" alt="image" src="https://github.com/user-attachments/assets/2729f35d-b8e9-4f12-a36f-5dad4a1c38ac" />
 
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
@@ -57,6 +60,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 # IAPR-1- Module 1 - FoC
 # Ex.No:2
   Build a C program to display the value of a macro constant and a constant variable.
+
 # Aim:
   To build a C program that demonstrates the use of macro constants and constant variables.
 # Algorithm:
@@ -78,6 +82,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
+```
 #include <stdio.h>
 
 #define PI 3.14159
@@ -91,8 +96,9 @@ printf("Macro Constant PI: %f\n", PI);
 printf("Constant Variable AGE: %d\n", AGE);
 
 return 0; }
+```
 # Output:
-<img width="1120" height="322" alt="image" src="https://github.com/user-attachments/assets/f2fe4f39-1bbc-480f-8ebb-c218b25e00da" />
+<img width="1120" height="322" alt="image" src="https://github.com/user-attachments/assets/13100085-2a54-45e7-b58d-b250cdfbb3ad" />
 
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
@@ -102,6 +108,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 # IAPR-1- Module 1 - FoC
 # Ex.No:3
   Build a C program to demonstrate the use of different data types such as int, float, double, and char, and display their values using printf().
+
 # Aim:
   To build a C program that declares variables of various data types—integer, float, double, and character—initializes them, and prints their values on the screen.
 # Algorithm:
@@ -116,6 +123,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 5:    
    Stop
 # Program:
+```
 #include <stdio.h>
 
 int main() {
@@ -137,8 +145,9 @@ printf("Double value: %.4lf\n", bigValue);
 printf("Character value: %c\n", grade);
 
 return 0; }
+```
 # Output:
-<img width="1160" height="374" alt="image" src="https://github.com/user-attachments/assets/f04a6bd6-7ebb-4f99-bebb-47af40aaa992" />
+<img width="1160" height="374" alt="image" src="https://github.com/user-attachments/assets/38e2ab61-2b18-4c36-9fd4-20b0635ab2d4" />
 
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
@@ -147,6 +156,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 # IAPR-1- Module 1 - FoC
 # Ex.No:4
   Build a C program to perform arithmetic and bitwise operations on two integers entered by the user. The program should display: Arithmetic operations: addition, subtraction, multiplication, division, and remainder. Bitwise operations: AND, OR, XOR, left shift, right shift, and NOT.
+
 # Aim:
   To build a C program that takes two integers as input and demonstrates the arithmetic and bitwise operations, displaying the results of each operation.
 # Algorithm:
@@ -178,6 +188,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+```
 #include <stdio.h>
 
 int main() {
@@ -225,8 +236,9 @@ printf("NOT (~a): %d\n", ~a);
 printf("NOT (~b): %d\n", ~b);
 
 return 0; }
+```
 # Output:
-<img width="1157" height="817" alt="image" src="https://github.com/user-attachments/assets/f31c0be4-66eb-4a87-93a9-9f658840fd85" />
+<img width="1157" height="817" alt="image" src="https://github.com/user-attachments/assets/cd58b6a4-6441-4fae-b44b-b5a7431ddbe9" />
 
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
@@ -272,6 +284,7 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+```
 #include <stdio.h>
 
 int main() {
@@ -303,8 +316,9 @@ scanf("%c", &ch);
     
 );
 return 0; }
+```
 # Output:
-<img width="1154" height="332" alt="image" src="https://github.com/user-attachments/assets/cb6c847c-4a0b-4be6-9161-6ab25bcb8525" />
+<img width="1154" height="332" alt="image" src="https://github.com/user-attachments/assets/2d034fb5-4785-4e47-9a52-a12af41e8e26" />
 
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
